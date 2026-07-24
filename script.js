@@ -25,11 +25,8 @@ let menuBtn = document.querySelector(".nav-btn");
 menuBtn.onclick = function () {
   links.classList.toggle("active");
   if (links.classList.contains("active")) {
-        menuBtn.innerHTML = `<i class="fa-solid fa-xmark"></i>`;
+    menuBtn.innerHTML = `<i class="fa-solid fa-xmark"></i>`;
   } else {
-            menuBtn.innerHTML = `<i class="fa-solid fa-bars-staggered"></i>`;
-
-
+    menuBtn.innerHTML = `<i class="fa-solid fa-bars-staggered"></i>`;
   }
 };
-
